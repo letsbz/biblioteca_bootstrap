@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../atividade2/css/bootstrap.css"> 
+    <link rel="stylesheet" href="../atividade2/css/cadastro.css">
+    <link rel="stylesheet" href="../atividade2/css/geral.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+                <div id="titulo">Biblioteca Virtual</div>
+                <div class="menu">
+                    <b><a href="index.html" target="_blank">Home</a></b>
+                    <b><a href="generos.html" target="_blank">Gêneros</a></b>
+                    <b><a href="cadastro.html" target="_blank">Cadastre-se</a></b>
+                </div>
+        </header> 
+        <div id="conteudo">                       
+            <div id="central">
+                <div id="imgcadas">
+                    <img src="../atividade2/img/livros.jpg" alt="livros brancos com uma folha em cima">
+                </div>
+                <div id="cadastro" class="cadas">
+                    <form action="" method="get">
+                        <h2>Cadastro</h2>
+                        <input type="text" name="nome" id="n" placeholder="Digite o seu nome" required><br>
+                        <h4>Data de nascimento</h4>
+                        <input type="date" number="Data de nascimento" id="d"required><br>
+                        <input type="email" email="email" id="e" placeholder="Digite o seu email"required><br>
+                        <input type="password" password="senha" id="s" placeholder="Digite a sua senha"required><br>
+                        <select name="genero" id="g"required>
+                            <option>Gênero</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select><br>
+                        <h4>Quais seus Gêneros favoritos de livros?</h4><br>
+                        <label><input type="checkbox" name="livro" value="Romance" id="l">Romance</label><br>
+                        <label><input type="checkbox" name="livro" value="Terror" id="l">Terror</label><br>
+                        <label><input type="checkbox" name="livro" value="Fantasia" id="l">Fantasia</label><br>
+                        <label><input type="checkbox" name="livro" value="Misterio" id="l">Mistério</label><br>
+                        <label><input type="checkbox" name="livro" value="Ficcao" id="l">Ficção</label><br>
+            
+                        <button type="submit">Enviar</button>
+            
+                    </form>    
+                </div>   
+            </div>      
+        </div>
+       
+    </div>
+    <footer>
+        Todos os direitos reservados a @letsbz 
+    </footer> 
+    <script src="../atividade2/js/bootstrap.bundle.js"></script>
+</body>
+</html>
